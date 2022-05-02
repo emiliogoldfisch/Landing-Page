@@ -50,16 +50,16 @@ body {
     width: 100px;
 }
 
+.hero-container img {
+    height: auto;
+    width: 300px;
+    flex: 0 0 auto;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     column-gap: 30px;
-}
-
-img {
-    height: auto;
-    width: 300px;
-    flex: 0 0 auto;
 }
 
 .hero-main-text {
@@ -85,4 +85,16 @@ button {
 .image-row {
     margin: 50px;
     display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+.image img {
+    height: 250px;
+    width: 200px;
+    flex: 1 0 auto;
 }
