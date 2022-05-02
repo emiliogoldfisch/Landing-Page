@@ -4,9 +4,14 @@ body {
 
 .header {
     background-color: #1F2937;
+    padding: 10px 300px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-and-links {
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,24 +20,69 @@ body {
 .logo-text,
 .hero-main-text {
     color: #F9FAF8;
+    font-size: 24px;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.hero-container {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-texts {
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.hero-container button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    width: 100px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 
 img {
     height: auto;
-    width: 500px;
+    width: 300px;
+    flex: 0 0 auto;
 }
 
 .hero-main-text {
     font-size: 48px;
+    font-weight: bolder;
 }
 
+.links,
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+button {
+    height: auto;
+    width: 80px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.image-row {
+    margin: 50px;
+    display: flex;
 }
