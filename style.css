@@ -45,9 +45,10 @@ body {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     border-radius: 8px;
     width: 100px;
+    border: none;
 }
 
 .hero-container img {
@@ -82,19 +83,28 @@ button {
     text-align: center;
 }
 
+.section2-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .image-row {
     margin: 50px;
     display: flex;
     justify-content: center;
+    column-gap: 30px;
 }
 
 .image {
+    height: auto;
+    width: 300px;
     display: flex;
     flex-direction: column;
 }
 
 .image img {
-    height: 250px;
-    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
     flex: 1 0 auto;
 }
