@@ -7,7 +7,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 10px 300px;
+    padding: 10px 200px;
     margin-bottom: 100px;   
     display: flex;
     flex-direction: column;
@@ -54,9 +54,10 @@ ul {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
+    font-size: larger;
     padding: 10px;
     border-radius: 8px;
-    width: 100px;
+    width: 150px;
     border: none;
 }
 
@@ -139,4 +140,40 @@ button {
 
 .signature {
     text-align: end;
+}
+
+.section4 {
+    padding: 100px 200px;
+}
+
+.action-area {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 200px;
+}
+
+.action-area button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    border: 3px solid white;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.action-text strong {
+    font-size: 18px;
 }
