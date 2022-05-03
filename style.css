@@ -107,6 +107,7 @@ button {
     width: 300px;
     display: flex;
     flex-direction: column;
+    row-gap: 5px;
 }
 
 .image img {
