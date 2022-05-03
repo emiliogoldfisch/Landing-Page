@@ -149,7 +149,7 @@ button {
 .action-area {
     background-color: #3882F6;
     padding: 50px 100px;
-    color: white;
+    color: #F9FAF8;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -159,13 +159,13 @@ button {
 
 .action-area button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
     font-size: larger;
     padding: 10px;
     border-radius: 8px;
     width: 150px;
-    border: 3px solid white;
+    border: 3px solid #F9FAF8;
 }
 
 .action-text {
@@ -176,4 +176,13 @@ button {
 
 .action-text strong {
     font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
